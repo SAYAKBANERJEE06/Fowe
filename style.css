@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    width: 98.7vw;
+  background-image: url(bgi.jpeg); 
+      
+}
+ .bdf{
+    height: 100vh;
+    width: 98.7vw;
+    background-color: rgba(236, 236, 225, 0.819);
+    backdrop-filter: blur(10px) ;
+
+}
+.navic{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    width: 98.7vw;
+    height: 8vh;
+    display: flex;
+   
+    padding-left: 20px;
+}
+.logo{
+    padding-top: 10px;
+    height: 8vh;
+    width: 90%;
+} 
+.sh{
+   
+    height:8vh;
+    width: 10%;
+    padding-top: 10px;
+    padding-left: 50px;
+   
+}
+.ri-shopping-cart-2-fill:hover{
+    font-size: 42px ;
+    color: rgb(241, 33, 33);
+    transition: 0.2s ease-in-out;
+}
+
+.sh>i{
+    font-size: 40px;
+
+}
+#pg1{
+    display: flex;
+   
+    height: 100%;
+    width: 100%;
+}
+.cnt{
+    line-height: 80px;
+    padding-top: 20vh;
+    padding-left: 5vw;
+    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+    height: 100vh;
+    font-weight: 100;
+    width: 40%;
+    
+    justify-content: center;
+}
+.cnt>button{
+    height: 8vh;
+    width: 15vw;
+    -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 15px 15px 0 15px    ;
+  -webkit-box-shadow: 0px 1px 3px #080608;
+  -moz-box-shadow: 0px 1px 3px #080608;
+  box-shadow: 0px 1px 3px #080608;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.rmi{
+    height: 100vh;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   transition: 0.6s ease-in-out;
+   background-image: url(rm.png);
+}
+/* .rmi>img{
+   
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s ease-in-out;
+} */
+.rmi:hover {
+    height: 100%;
+    width: 100%;
+    size: 300px;
+    background-size: cover;
+    background-image: url(rm2.png);
+}
+#food{
+    height: 9vh;
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+.food{
+    
+    height: 9vh;
+    width: 5vw;
+    background-color: rgba(174, 174, 169, 0.234);
+    border-radius: 20px;
+    padding-left: 0.8vw;
+    padding-top: 0.9vh;
+    transition: height 0.8s  , width 0.8s , font-size 0.8s ease-in-out;
+    
+}
+.food>span{
+    height: 100%;
+    width: 100%;
+    font-size:7vh ;
+}
+.food:hover{
+    height: 10.5vh;
+    width: 5.5vw;
+
+   
+}
+.food:hover>span{
+    
+    font-size: 8vh;
+     
+}
+#bc:hover{
+
+    color: rgb(152, 140, 64);
+}
+#cc:hover{
+
+    color: rgb(225, 93, 198);
+}
+#sc:hover{
+
+    color: rgb(216, 160, 81);
+}
+#nc:hover{
+
+    color: rgb(52, 134, 26);
+}
+
+::selection{
+    color: #f042b6;
+}
