@@ -52,8 +52,8 @@
 #pg1{
     display: flex;
    
-    height: 100%;
-    width: 100%;
+    height: 80vh;
+    width: 100vw;
 }
 .cnt{
     line-height: 80px;
@@ -61,7 +61,7 @@
     padding-left: 5vw;
     font-size: 25px;
     font-family: "Rubik", sans-serif;
-    height: 100vh;
+    height: 80vh;
     font-weight: 100;
     width: 40%;
     
@@ -84,13 +84,41 @@
   text-decoration: none;
 }
 .rmi{
-    height: 100vh;
+    height: 80vh;
     width: 60%;
     background-repeat: no-repeat;
     background-size: cover;
    transition: 0.6s ease-in-out;
-   background-image: url(rm.png);
+   /* background-image: url(rm.png); */
 }
+.remi1{
+    height: 80vh;
+    width: 50%;
+    position: absolute;
+    visibility:visible;
+    /* transform: visibility 0.8s ease-in-out; */
+    /* transform: width 0.8s ease-in-out; */
+   
+    
+}
+.remi1 img{
+    height: 80vh;
+    width: 60vw;
+}
+.remi2{
+    height: 0vh;
+    width: 0%;
+    position: absolute;
+    bottom: 1vh;
+    left: 90vh;
+    visibility: hidden;
+    transition: height 0.8s, width 0.8s ease-in-out;
+}
+.remi2 img{
+    height: 100vh;
+    width: 100%;
+}
+
 /* .rmi>img{
    
     height: 100%;
@@ -99,13 +127,17 @@
     background-position: center;
     transition: 0.2s ease-in-out;
 } */
-.rmi:hover {
-    height: 100%;
-    width: 100%;
-    size: 300px;
-    background-size: cover;
-    background-image: url(rm2.png);
+.rmi:hover .remi2{
+visibility:visible;
+height: 100vh;
+width: 50%;
 }
+.rmi:hover .remi1{
+    height: 0vh;
+    width: 0%;
+    visibility: hidden;
+}
+
 #food{
     height: 9vh;
     width: 90%;
