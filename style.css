@@ -5,13 +5,13 @@
 }
 #main{
     height: 100vh;
-    width: 98.7vw;
+    width: 98.4vw;
   background-image: url(bgi.jpeg); 
       
 }
  .bdf{
     height: 100vh;
-    width: 98.7vw;
+    width: 98.4vw;
     background-color: rgba(236, 236, 225, 0.819);
     backdrop-filter: blur(10px) ;
 
@@ -52,8 +52,8 @@
 #pg1{
     display: flex;
    
-    height: 100%;
-    width: 100%;
+    height: 80vh;
+    width: 90vw;
 }
 .cnt{
     line-height: 80px;
@@ -61,7 +61,7 @@
     padding-left: 5vw;
     font-size: 25px;
     font-family: "Rubik", sans-serif;
-    height: 100vh;
+    height: 80vh;
     font-weight: 100;
     width: 40%;
     
@@ -84,13 +84,41 @@
   text-decoration: none;
 }
 .rmi{
-    height: 100vh;
-    width: 60%;
+    height: 80vh;
+    width: 50vw;
     background-repeat: no-repeat;
     background-size: cover;
    transition: 0.6s ease-in-out;
-   background-image: url(rm.png);
+   /* background-image: url(rm.png); */
 }
+.remi1{
+    height: 80vh;
+    width: 50vw;
+    position: absolute;
+    visibility:visible;
+    /* transform: visibility 0.8s ease-in-out; */
+    /* transform: width 0.8s ease-in-out; */
+   
+    
+}
+.remi1 img{
+    height: 80vh;
+    width: 60vw;
+}
+.remi2{
+    height: 0vh;
+    width: 0%;
+    position: absolute;
+    bottom: 1vh;
+    left: 80vh;
+    visibility: hidden;
+    transition: height 0.8s, width 0.8s ease-in-out;
+}
+.remi2 img{
+    height: 100vh;
+    width: 100%;
+}
+
 /* .rmi>img{
    
     height: 100%;
@@ -99,13 +127,17 @@
     background-position: center;
     transition: 0.2s ease-in-out;
 } */
-.rmi:hover {
-    height: 100%;
-    width: 100%;
-    size: 300px;
-    background-size: cover;
-    background-image: url(rm2.png);
+.rmi:hover .remi2{
+visibility:visible;
+height: 100vh;
+width: 50%;
 }
+.rmi:hover .remi1{
+    height: 0vh;
+    width: 0%;
+    visibility: hidden;
+}
+
 #food{
     height: 9vh;
     width: 90%;
@@ -160,4 +192,151 @@
 
 ::selection{
     color: #f042b6;
+}
+#main2{
+    height: 100vh;
+    width: 98.4vw;
+  background-image: url(bgi.jpeg); 
+}
+#blur{
+    height: 100vh;
+    width: 98.4vw;
+    display: flex;
+    background-color: rgba(236, 236, 225, 0.819);
+    backdrop-filter: blur(10px) ;
+}
+#mom{
+    height: 70vh;
+    width: 98.4vw;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+.bro{
+    height: 50vh;
+    width: 90vh;
+    background-color: yellow;   
+}
+#blur_div1{
+    display: flex;
+    gap: 1vh;
+}
+#f{
+    height: 40vh;
+    width: 35vh;
+    background-color: rgba(174, 174, 169, 0.234);
+    border-radius: 10px;
+}
+#f1{
+    height: 40vh;
+    width: 35vh;
+    background-color: rgba(174, 174, 169, 0.234);
+    border-radius: 10px; 
+}
+.kc{
+    margin-left: 7vh;
+    margin-top: 7vh;
+}
+#pic1{
+    height: 25vh;
+    width: 25vh;
+    position: absolute;
+    top: -0.5vh;
+    right: 79vw;
+   
+}
+#pic1 img{
+    height: 25vh;
+    width: 25vh;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 30vh;
+}
+#cl{
+    display: flex;
+    height: 12vh;
+    width: 35vh;
+    margin-top: 20vh;
+    background-color: red;
+}
+#cr{
+    height:7vh;
+    width: auto;
+    margin-left: 10vh;
+    font-weight:600;
+}
+#love{
+    height: 6vh;
+    width: 7vh;
+    background-color: rgba(174, 174, 169, 0.337);
+    margin-left: 5vh;
+    border-radius: 50px;
+    padding-top: 1vh;
+    padding-left: 0.5vh; ;
+}
+#love i{
+    margin-left: 1vh;
+    font-size: 4vh;
+}
+#app{
+    height: 100vh;
+    width: 98.4vw;
+    background-image: url(bgi.jpeg); 
+    display: flex;
+   
+}
+.ap{
+    height:100%;
+    width: 55%;
+   margin-left: 2vw;
+   margin-top: -0.5vh;
+    background-image: url(ap.png);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+.apc{
+    height:100%;
+    width: 45%;
+    font-family: "Roboto", sans-serif;
+     line-height: 3vh;
+    
+   
+     
+}
+.cnrt>h1{
+    font-size: 45px;
+    font-weight: 1200;
+}
+
+.dnld{
+    height: 40%;
+    width: 100%;
+    
+    display: flex;
+    
+    
+}
+.cnrt{
+    height: 60%;
+    width: 100%;
+    padding: 27vh 20vh;
+    
+}
+.ios{
+    background-image: url(ios.png);
+    height: 10vh;
+    width: 30vh;
+    margin-left: 7vw;
+
+    background-size: cover;
+    
+}
+.ggl{
+    background-image: url(ggl.png);
+    height: 10vh;
+    width: 35vh;
+   
+  
+    background-size: cover;
+    
 }
