@@ -5,13 +5,13 @@
 }
 #main{
     height: 100vh;
-    width: 98.7vw;
+    width: 98.4vw;
   background-image: url(bgi.jpeg); 
       
 }
  .bdf{
     height: 100vh;
-    width: 98.7vw;
+    width: 98.4vw;
     background-color: rgba(236, 236, 225, 0.819);
     backdrop-filter: blur(10px) ;
 
@@ -53,7 +53,7 @@
     display: flex;
    
     height: 80vh;
-    width: 100vw;
+    width: 90vw;
 }
 .cnt{
     line-height: 80px;
@@ -85,7 +85,7 @@
 }
 .rmi{
     height: 80vh;
-    width: 60%;
+    width: 50vw;
     background-repeat: no-repeat;
     background-size: cover;
    transition: 0.6s ease-in-out;
@@ -93,7 +93,7 @@
 }
 .remi1{
     height: 80vh;
-    width: 50%;
+    width: 50vw;
     position: absolute;
     visibility:visible;
     /* transform: visibility 0.8s ease-in-out; */
@@ -110,7 +110,7 @@
     width: 0%;
     position: absolute;
     bottom: 1vh;
-    left: 90vh;
+    left: 80vh;
     visibility: hidden;
     transition: height 0.8s, width 0.8s ease-in-out;
 }
@@ -195,25 +195,25 @@ width: 50%;
 }
 #main2{
     height: 100vh;
-    width: 98.7vw;
+    width: 98.4vw;
   background-image: url(bgi.jpeg); 
 }
 #blur{
     height: 100vh;
-    width: 98.7vw;
+    width: 98.4vw;
     background-color: rgba(236, 236, 225, 0.819);
     backdrop-filter: blur(10px) ;
 }
 #mom{
-    height: 50vh;
-    width: 98.7vw;
+    height: 70vh;
+    width: 98.4vw;
     background-color: red;
     display: flex;
     justify-content: space-around;
 }
 .bro{
-    height: 40vh;
-    width: 70vh;
+    height: 50vh;
+    width: 90vh;
     background-color: yellow;   
 }
 #blur_div1{
@@ -221,14 +221,14 @@ width: 50%;
     gap: 1vh;
 }
 #f{
-    height: 25vh;
-    width: 25vh;
+    height: 40vh;
+    width: 35vh;
     background-color: rgba(174, 174, 169, 0.234);
     border-radius: 10px;
 }
 #f1{
-    height: 25vh;
-    width: 25vh;
+    height: 40vh;
+    width: 35vh;
     background-color: rgba(174, 174, 169, 0.234);
     border-radius: 10px; 
 }
@@ -238,9 +238,41 @@ width: 50%;
 }
 #pic1{
     height: 25vh;
-    width: 35vh;
-    background-image: url(ramen1.png);
-     background-repeat: no-repeat;
-    background-image: cover; 
+    width: 25vh;
+    position: absolute;
+    top: -0.5vh;
+    right: 79vw;
    
+}
+#pic1 img{
+    height: 25vh;
+    width: 25vh;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 30vh;
+}
+#cl{
+    display: flex;
+    height: 12vh;
+    width: 35vh;
+    margin-top: 20vh;
+    background-color: red;
+}
+#cr{
+    height:7vh;
+    width: auto;
+    margin-left: 10vh;
+    font-weight:600;
+}
+#love{
+    height: 6vh;
+    width: 7vh;
+    background-color: rgba(174, 174, 169, 0.337);
+    margin-left: 5vh;
+    border-radius: 50px;
+    padding-top: 1vh;
+    padding-left: 0.5vh; ;
+}
+#love i{
+    margin-left: 1vh;
+    font-size: 4vh;
 }
