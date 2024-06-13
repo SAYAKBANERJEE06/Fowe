@@ -222,26 +222,38 @@ width: 50%;
     gap: 1vh;
 }
 #f{
-    height: 40vh;
+    height: 35vh;
     width: 35vh;
     background-color: rgba(174, 174, 169, 0.234);
-    border-radius: 10px;
+    border-radius: 30px;
+    transition: height 1s,width 1s,box-shadow ease-in-out;
 }
 #f1{
-    height: 40vh;
+    height: 35vh;
     width: 35vh;
     background-color: rgba(174, 174, 169, 0.234);
-    border-radius: 10px; 
+    border-radius: 30px;
+    transition: height 1s,width 1s,box-shadow ease-in-out; 
 }
 .kc{
     margin-left: 7vh;
     margin-top: 7vh;
 }
+#f:hover{
+    height: 40vh;
+    width: 40vh;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#f1:hover{
+    height: 40vh;
+    width: 40vh;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 #pic1{
     height: 25vh;
     width: 25vh;
     position: absolute;
-    top: -0.5vh;
+     top: -0.1vh; 
     right: 79vw;
    
 }
@@ -256,29 +268,107 @@ width: 50%;
     height: 12vh;
     width: 35vh;
     margin-top: 20vh;
-    background-color: red;
 }
 #cr{
-    height:7vh;
-    width: auto;
-    margin-left: 10vh;
+    height:10vh;
+    width: 22vh;
+    margin-left: 1vh;
     font-weight:600;
+}
+#Crab{
+    margin-left: 8vh;
+}
+#spg{
+    font-size: 1.5vh;
+    margin-left: 8vh;
+    margin-top: 1vh;
+}
+#twofour{
+    font-size: 2vh;
+    position: absolute;
+    top: 33vh;
+    left: 16vh;
 }
 #love{
     height: 6vh;
     width: 7vh;
     background-color: rgba(174, 174, 169, 0.337);
-    margin-left: 5vh;
+    margin-left: 2vh;
     border-radius: 50px;
     padding-top: 1vh;
-    padding-left: 0.5vh; ;
+    padding-left: 0.5vh;  
+    transition: box-shadow 0.8s ease-in-out; 
 }
 #love i{
     margin-left: 1vh;
     font-size: 4vh;
 }
-
-#app{
+#love:hover{
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; ;
+}
+#swg{
+    font-size: 1vh;
+}
+#pic2{
+    height: 25vh;
+    width: 25vh;
+    position: absolute;
+    bottom: 75vh;
+    left: 55vh;
+}
+#pic2 img{
+    height: 25vh;
+    width: 25vh;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 30vh;
+}
+#jc{
+    font-size: 1.5vh;
+    margin-left: 9vh;
+    margin-top: 1vh;
+}
+#twofourone{
+    position: absolute;
+    top: 33vh;
+    left: 60vh;
+}
+#larrow{
+    font-size: 7vh;
+    position: absolute;
+    right: 176vh;
+}
+#rarrow{
+    font-size: 7vh;
+    position: absolute;
+    right: 172vh;
+}
+#shop1{
+    height: 7vh;
+    width: 7vh;
+    background-color: black;
+    position: absolute;
+    top: 39vh;
+    left: 33vh;
+    border-radius: 10px 0px 30px 10px;
+    color: white;
+    font-size: 4vh;
+    padding-left: 1vh;
+    padding-top: 1vh;
+}
+#shop2{
+    height: 7vh;
+    width: 7vh;
+    background-color: black;
+    position: absolute;
+    top: 39vh;
+    left: 76vh; 
+    border-radius: 10px 0px 30px 10px;
+    color: white;
+    font-size: 4vh;
+    padding-left: 1vh;
+    padding-top: 1vh;
+}
+/* #app{
     height: 100vh;
     width: 98.4vw;
     background-image: url(bgi.jpeg); 
@@ -335,4 +425,4 @@ width: 50%;
     height: 10vh;
     width: 35vh;
     background-size: cover;
-    }
+    } */
