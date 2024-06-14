@@ -416,7 +416,12 @@ width: 65vh;
     animation-direction: normal;
     animation-timing-function: ease-in-out;
     border-radius: 75px;
-    position: inherit;
+    position: absolute;
+    bottom: 15vh;
+
+}
+#pasta:hover{
+    cursor:grab;
 }
 #pasta img{
     height: 50vh;
@@ -436,10 +441,14 @@ width: 65vh;
     color: white;
     background-color:red;
     position: absolute;
-    left: 145vh;
-    top: 50vh;
+    left: 165vh;
+    top: 45vh;
     border: dotted 5px black;
-}/*sayak*/
+}
+#price:hover{
+    cursor:pointer;
+}
+/*sayak*/
   #app{
     height: 100vh;
     width: 98.4vw;
@@ -454,17 +463,15 @@ width: 65vh;
    margin-top: -0.5vh;
     background-image: url(ap.png);
     background-repeat: no-repeat;
-   
     background-size: cover;
 }
+
 .apc{
     height:100%;
     width: 45%;
     font-family: "Roboto", sans-serif;
      line-height: 3vh;
-    
-   
-     
+
 }
 .cnrt>h1{
     font-size: 45px;
