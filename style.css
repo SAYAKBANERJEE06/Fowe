@@ -472,8 +472,8 @@ width: 65vh;
     color: white;
     background-color:red;
     position: absolute;
-    left: 170vh;
-    top: 45vh;
+    left: 150vh;
+    top: 40vh;
     border: dotted 5px black;
 }
 #price:hover{
