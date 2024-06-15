@@ -563,16 +563,197 @@ width: 65vh;
         background-color: rgba(183, 183, 169, 0);
         backdrop-filter: blur(10px);  
         border-radius: 25px;
+       
     }
-    /* *{
-        margin:0;
-        padding:0;
-        box-sizing: border-box;
-    }
-    .container{
-        max-width: 1170px;
-        margin:auto;
-    } */
+  .ic{
+    height: 5vh;
+    width:20vw ;
+    display: flex;
+    justify-content: space-between;  
+  }
+  .b2{
+    height: 8vh;
+    width: 3.5vw;
+    font-size: 5vh;
+    margin-top: 1vh;
+    
+  }
+  .b2 i{
+    font-size: 3vh;
+    margin-left: 1.5vw;
+   
+    
+  }
+  .sk{
+    height: 8vh;
+    width: 3.5vw;
+    left: 15vw;
+    top: -2.5vh;
+    background-color: black;
+    color: #ffffff;
+    position: absolute;
+    align-items: center;
+    border-radius: 10px 10px 25px 10px ;
+  }
+  
+  .sk i{
+    font-size: 5vh;
+    margin-left: 0.5vw;
+    
+  }
+  .df{
+    height: 10vh;
+    width:20vw ;
+    margin-top: 3vh;
+   margin-left: 1vh;
+   font-family: roboto;
+    line-height: 4vh;
+    
+  }
+  .df h1{
+    font-size: 6vh;
+  }
+  .fit{
+    height: 8vh;
+    width:18vw ;
+   margin-left: 1vw;
+   
+    display: flex;
+    justify-content: space-between;
+  }
+  .fod{
+    height: 6vh;
+    width: 3vw;
+    backdrop-filter: blur(10px);
+    background-color: #c8c4a44f;    
+    align-items: center;
+    border-radius: 20px;
+    transition: background-color 0.5s  ease-in-out;
+  }
+  .fod:hover{
+    cursor:pointer;
+    background-color: #000000;
+    color: #ffffff;
+    
+  }
+ 
+  .fod span{
+    margin-left: 0.5vw;
+    margin-top: 0.4vh;
+    font-size: 4vh;
+    
+  }
+ 
+  .chobi{
+    height: 30vh;
+    width: 17vw;
+    margin-left: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fd{
+    height: 30vh;
+    width:8vw;
+    backdrop-filter: blur(10px);
+    background-color: #c8c4a44f; 
+    border-radius: 25px;
+  }
+  .ci{
+    margin-left: 1vw;
+    height: 13vh;
+    width:6vw;
+    border-radius: 50px;
+    
+  }
+  .ci img{
+    height: 13vh;
+    width:6vw;
+  }
+  .hed{
+    height: 4vh;
+    width: 8vw;
+  }
+  .d{
+    height: 4vh;
+    width: 8vw; 
+  }
+  .pr{
+    height: 4vh;
+    margin-top: 2vh;
+    width: 8vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .b{
+    
+    height: 4vh;
+    width: 2vw;
+    backdrop-filter: blur(10px);
+    background-color: #c8c4a44f; 
+    border-radius: 25px;
+
+  }
+  .lv{
+    height: 4vh;
+    width: 2vw;
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+  }
+
+  .kmkh{
+    
+    height:22vh;
+    width:16vw ;
+  }
+  .bb{
+    height:19vh;
+    width:17vw ;
+    margin-top: 1vh;
+    margin-left: 1.5vw;
+    backdrop-filter: blur(10px);
+    background-color: #c8c4a44f; 
+    border-radius: 25px;
+    display: flex;
+  }
+  .c{
+    margin-top: 2vh;
+    margin-left: 1vw;
+    
+    height:17vh;
+    width: 60%;
+  }
+  .eci{
+    margin-top: 3vh;
+    height: 13vh;
+    width:6vw;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    background-color: #c8c4a482; 
+  }
+  .eci img{
+    height: 13vh;
+    width:8vw;
+    margin-left: -1vw;
+  }
+  .nich{
+    height: 8vh;
+    width:18vw ;
+    margin-left: 2vh;
+    border-radius: 23px;
+    margin-top: -2vh;
+    background-color: #000608;
+    display: flex;
+    justify-content: space-between;
+  }
+  .icn{
+    height: 8vh;
+    width:4vw ;
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+    font-size: 3vh;
+    color: #ffffff;
+  }
+
     .row{
         display: flex;
         flex-wrap: wrap;
@@ -580,6 +761,54 @@ width: 65vh;
     ul{
         list-style: none;
     }
+    .tk{height: 8vh;
+        width: 3.5vw;
+        font-size: 5vh;
+        margin-top: 1vh;
+        
+      }
+      .tk i{
+        font-size: 3vh;
+        margin-left: 1.5vw;
+
+      }
+      .rim{
+        height: 50vh;
+        width: 20vw;
+        
+      }
+      .rim img{
+        margin-top: 5vh;
+        height: 30vh;
+        width: 20vw;
+      }
+      .rcn{
+        margin-left: 2vh;
+        
+        height: 23vh;
+        width: 20vw;
+      }
+      .lst{
+        height: 10vh;
+        width: 20vw;
+        display: flex;
+        background-color:yellow ;
+      }
+      .l{
+        height: 10vh;
+        width: 30vw;
+        background-color: #f042b6;
+      }
+      .v{
+        height: 10vh;
+        width: 30vw;
+        background-color: aqua;
+      }
+      .t{
+        height: 10vh;
+        width: 10vw;
+        background-color: rgb(241, 230, 22);
+      }
     .footer{
         height: 30vh;
         background-color: #24262b;
