@@ -470,8 +470,8 @@ width: 65vh;
     color: white;
     background-color:red;
     position: absolute;
-    left: 170vh;
-    top: 45vh;
+    left: 150vh;
+    top: 40vh;
     border: dotted 5px black;
 }
 #price:hover{
@@ -479,6 +479,7 @@ width: 65vh;
 }
 /*sayak*/
   #app{
+    
     height: 100vh;
     width: 100vw;
     background-image: url(bgi.jpeg); 
@@ -486,16 +487,24 @@ width: 65vh;
    
 }
 .ap{
-    height:100%;
+    height:97.5%;
     width: 55%;
    margin-left: 2vw;
    margin-top: -0.5vh;
-    background-image: url(ap.png);
+    
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
-
+#blr{
+    height:100%;
+    width: 100%;
+    display: flex;
+    background-color:  rgba(236, 236, 225, 0.819);
+    backdrop-filter: blur(10px);
+}
 .apc{
+   
     height:100%;
     width: 45%;
     font-family: "Roboto", sans-serif;
@@ -533,6 +542,27 @@ width: 65vh;
     height: 0vh;
     width: 35vh;
     background-size: cover;
+    }
+    .ss{
+        
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .s{
+       height: 86vh;
+       width: 20vw;
+    
+        
+    }
+    .blar{
+        height: 86vh;
+        width: 20vw;
+        background-color: rgba(183, 183, 169, 0);
+        backdrop-filter: blur(10px);  
+        border-radius: 25px;
     }
     /* *{
         margin:0;
